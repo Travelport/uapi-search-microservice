@@ -1,0 +1,7 @@
+air:
+  username: ${USERNAME}
+  password: ${PASSWORD}
+  #endpoint: ${UAPI_ENDPOINT}
+  endpoint: http://localhost:8087/AirService
+  branch: ${BRANCH}
+ 

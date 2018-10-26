@@ -1,0 +1,10 @@
+air:
+  username: ${USERNAME}
+  password: ${PASSWORD}
+  endpoint: ${UAPI_ENDPOINT:https://americas.universal-api.pp.travelport.com/B2BGateway/connect/uAPI/AirService}
+  branch: ${BRANCH}
+logging:
+  level:
+    com.travelport.refimpl: DEBUG
+server:
+  port: 8090

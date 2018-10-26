@@ -1,0 +1,660 @@
+<air:LowFareSearchRsp TransactionId="AB9EC2F90A07761F870ED0544821C7A7"
+	ResponseTime="4051" DistanceUnits="MI" CurrencyType="AUD"
+	xmlns:air="http://www.travelport.com/schema/air_v45_0"
+	xmlns:common_v45_0="http://www.travelport.com/schema/common_v45_0">
+	<common_v45_0:ResponseMessage Code="4039"
+		Type="Warning" ProviderCode="1G">"Result size exceeded the maximum
+		allowable and some results were discarded. It may be necessary to
+		narrow your search using search modifiers."</common_v45_0:ResponseMessage>
+	<common_v45_0:ResponseMessage Code="15017"
+		Type="Error" ProviderCode="ACH">[ACH] Provider error: No flight records
+		found for this date or market.</common_v45_0:ResponseMessage>
+	<common_v45_0:ResponseMessage Code="14"
+		Type="Error" ProviderCode="RCH" SupplierCode="2C">[RCH - 2C] Provider
+		error: PricePoints are not supported for RCH.</common_v45_0:ResponseMessage>
+	<common_v45_0:ResponseMessage Code="14"
+		Type="Error" ProviderCode="RCH" SupplierCode="BN">[RCH - BN] Provider
+		error: PricePoints are not supported for RCH.</common_v45_0:ResponseMessage>
+	<common_v45_0:ResponseMessage Code="14"
+		Type="Error" ProviderCode="RCH" SupplierCode="TL">[RCH - TL] Provider
+		error: PricePoints are not supported for RCH.</common_v45_0:ResponseMessage>
+	<common_v45_0:ResponseMessage Code="14"
+		Type="Error" ProviderCode="RCH" SupplierCode="DB">[RCH - DB] Provider
+		error: PricePoints are not supported for RCH.</common_v45_0:ResponseMessage>
+	<common_v45_0:ResponseMessage Code="14"
+		Type="Error" ProviderCode="RCH" SupplierCode="2V">[RCH - 2V] Provider
+		error: PricePoints are not supported for RCH.</common_v45_0:ResponseMessage>
+	<common_v45_0:ResponseMessage Code="14"
+		Type="Error" ProviderCode="RCH" SupplierCode="7T">[RCH - 7T] Provider
+		error: PricePoints are not supported for RCH.</common_v45_0:ResponseMessage>
+	<air:FlightDetailsList>
+		<air:FlightDetails Key="65kPrWBAAA/BvcmAAAAAAA=="
+			Origin="DEN" Destination="SNA" DepartureTime="2018-09-29T08:03:00.000-06:00"
+			ArrivalTime="2018-09-29T09:25:00.000-07:00" FlightTime="142"
+			TravelTime="142" Equipment="738" OnTimePerformance="90" />
+		<air:FlightDetails Key="65kPrWBAAA/BxcmAAAAAAA=="
+			Origin="DEN" Destination="LAX" DepartureTime="2018-09-29T18:55:00.000-06:00"
+			ArrivalTime="2018-09-29T20:19:00.000-07:00" FlightTime="144"
+			TravelTime="144" Equipment="777" OnTimePerformance="70"
+			DestinationTerminal="7" />
+		<air:FlightDetails Key="65kPrWBAAA/BzcmAAAAAAA=="
+			Origin="DEN" Destination="LAX" DepartureTime="2018-09-29T07:50:00.000-06:00"
+			ArrivalTime="2018-09-29T09:27:00.000-07:00" FlightTime="157"
+			TravelTime="157" Equipment="738" OnTimePerformance="90"
+			DestinationTerminal="7" />
+		<air:FlightDetails Key="65kPrWBAAA/B1cmAAAAAAA=="
+			Origin="DEN" Destination="SLC" DepartureTime="2018-09-29T06:00:00.000-06:00"
+			ArrivalTime="2018-09-29T07:37:00.000-06:00" FlightTime="97"
+			TravelTime="271" Equipment="717" OnTimePerformance="90"
+			DestinationTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/B3cmAAAAAAA=="
+			Origin="SLC" Destination="LGB" DepartureTime="2018-09-29T08:35:00.000-06:00"
+			ArrivalTime="2018-09-29T09:31:00.000-07:00" FlightTime="116"
+			TravelTime="271" Equipment="E7W" OnTimePerformance="90"
+			OriginTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/B5cmAAAAAAA=="
+			Origin="SLC" Destination="LGB" DepartureTime="2018-09-29T11:10:00.000-06:00"
+			ArrivalTime="2018-09-29T12:08:00.000-07:00" FlightTime="118"
+			TravelTime="428" Equipment="E7W" OnTimePerformance="90"
+			OriginTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/B7cmAAAAAAA=="
+			Origin="SLC" Destination="LAX" DepartureTime="2018-09-29T09:40:00.000-06:00"
+			ArrivalTime="2018-09-29T10:44:00.000-07:00" FlightTime="124"
+			TravelTime="344" Equipment="738" OnTimePerformance="90"
+			OriginTerminal="2" DestinationTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/B9cmAAAAAAA=="
+			Origin="SLC" Destination="LAX" DepartureTime="2018-09-29T11:05:00.000-06:00"
+			ArrivalTime="2018-09-29T12:06:00.000-07:00" FlightTime="121"
+			TravelTime="426" Equipment="739" OnTimePerformance="80"
+			OriginTerminal="2" DestinationTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/B/cmAAAAAAA=="
+			Origin="DEN" Destination="MSP" DepartureTime="2018-09-29T16:32:00.000-06:00"
+			ArrivalTime="2018-09-29T19:28:00.000-05:00" FlightTime="116"
+			TravelTime="388" Equipment="M90" OnTimePerformance="80"
+			DestinationTerminal="1" />
+		<air:FlightDetails Key="65kPrWBAAA/BBdmAAAAAAA=="
+			Origin="MSP" Destination="LAX" DepartureTime="2018-09-29T20:02:00.000-05:00"
+			ArrivalTime="2018-09-29T22:00:00.000-07:00" FlightTime="238"
+			TravelTime="388" Equipment="757" OnTimePerformance="80"
+			OriginTerminal="1" DestinationTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/BDdmAAAAAAA=="
+			Origin="DEN" Destination="SLC" DepartureTime="2018-09-29T12:40:00.000-06:00"
+			ArrivalTime="2018-09-29T14:11:00.000-06:00" FlightTime="91"
+			TravelTime="261" Equipment="717" OnTimePerformance="90"
+			DestinationTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/BFdmAAAAAAA=="
+			Origin="SLC" Destination="BUR" DepartureTime="2018-09-29T15:00:00.000-06:00"
+			ArrivalTime="2018-09-29T16:01:00.000-07:00" FlightTime="121"
+			TravelTime="261" Equipment="E7W" OnTimePerformance="70"
+			OriginTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/BHdmAAAAAAA=="
+			Origin="SLC" Destination="BUR" DepartureTime="2018-09-29T08:38:00.000-06:00"
+			ArrivalTime="2018-09-29T09:40:00.000-07:00" FlightTime="122"
+			TravelTime="280" Equipment="CR9" OnTimePerformance="90"
+			OriginTerminal="2" />
+		<air:FlightDetails Key="65kPrWBAAA/BJdmAAAAAAA=="
+			Origin="SLC" Destination="BUR" DepartureTime="2018-09-29T11:15:00.000-06:00"
+			ArrivalTime="2018-09-29T12:09:00.000-07:00" FlightTime="114"
+			TravelTime="429" Equipment="CR9" OnTimePerformance="90"
+			OriginTerminal="2" />
+	</air:FlightDetailsList>
+	<air:AirSegmentList>
+		<air:AirSegment Key="65kPrWBAAA/BucmAAAAAAA==" Group="0"
+			Carrier="UA" FlightNumber="265" Origin="DEN" Destination="SNA"
+			DepartureTime="2018-09-29T08:03:00.000-06:00" ArrivalTime="2018-09-29T09:25:00.000-07:00"
+			FlightTime="142" Distance="832" ETicketability="Yes" Equipment="738"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/BvcmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/BwcmAAAAAAA==" Group="0"
+			Carrier="UA" FlightNumber="1613" Origin="DEN" Destination="LAX"
+			DepartureTime="2018-09-29T18:55:00.000-06:00" ArrivalTime="2018-09-29T20:19:00.000-07:00"
+			FlightTime="144" Distance="848" ETicketability="Yes" Equipment="777"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/BxcmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/BycmAAAAAAA==" Group="0"
+			Carrier="UA" FlightNumber="1093" Origin="DEN" Destination="LAX"
+			DepartureTime="2018-09-29T07:50:00.000-06:00" ArrivalTime="2018-09-29T09:27:00.000-07:00"
+			FlightTime="157" Distance="848" ETicketability="Yes" Equipment="738"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/BzcmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/B0cmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="1218" Origin="DEN" Destination="SLC"
+			DepartureTime="2018-09-29T06:00:00.000-06:00" ArrivalTime="2018-09-29T07:37:00.000-06:00"
+			FlightTime="97" Distance="380" ETicketability="Yes" Equipment="717"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Polled avail used"
+			OptionalServicesIndicator="false" AvailabilitySource="S"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/B1cmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/B2cmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="4644" Origin="SLC" Destination="LGB"
+			DepartureTime="2018-09-29T08:35:00.000-06:00" ArrivalTime="2018-09-29T09:31:00.000-07:00"
+			FlightTime="116" Distance="589" ETicketability="Yes" Equipment="E7W"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Polled avail used"
+			OptionalServicesIndicator="false" AvailabilitySource="S"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:CodeshareInfo>SKYWEST DBA DELTA CONNECTION</air:CodeshareInfo>
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/B3cmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/B4cmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="4589" Origin="SLC" Destination="LGB"
+			DepartureTime="2018-09-29T11:10:00.000-06:00" ArrivalTime="2018-09-29T12:08:00.000-07:00"
+			FlightTime="118" Distance="589" ETicketability="Yes" Equipment="E7W"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Polled avail used"
+			OptionalServicesIndicator="false" AvailabilitySource="S"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:CodeshareInfo>SKYWEST DBA DELTA CONNECTION</air:CodeshareInfo>
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/B5cmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/B6cmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="2509" Origin="SLC" Destination="LAX"
+			DepartureTime="2018-09-29T09:40:00.000-06:00" ArrivalTime="2018-09-29T10:44:00.000-07:00"
+			FlightTime="124" Distance="590" ETicketability="Yes" Equipment="738"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Polled avail used"
+			OptionalServicesIndicator="false" AvailabilitySource="S"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/B7cmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/B8cmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="2616" Origin="SLC" Destination="LAX"
+			DepartureTime="2018-09-29T11:05:00.000-06:00" ArrivalTime="2018-09-29T12:06:00.000-07:00"
+			FlightTime="121" Distance="590" ETicketability="Yes" Equipment="739"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/B9cmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/B+cmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="1609" Origin="DEN" Destination="MSP"
+			DepartureTime="2018-09-29T16:32:00.000-06:00" ArrivalTime="2018-09-29T19:28:00.000-05:00"
+			FlightTime="116" Distance="693" ETicketability="Yes" Equipment="M90"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/B/cmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/BAdmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="2321" Origin="MSP" Destination="LAX"
+			DepartureTime="2018-09-29T20:02:00.000-05:00" ArrivalTime="2018-09-29T22:00:00.000-07:00"
+			FlightTime="238" Distance="1534" ETicketability="Yes" Equipment="757"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/BBdmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/BCdmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="2537" Origin="DEN" Destination="SLC"
+			DepartureTime="2018-09-29T12:40:00.000-06:00" ArrivalTime="2018-09-29T14:11:00.000-06:00"
+			FlightTime="91" Distance="380" ETicketability="Yes" Equipment="717"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/BDdmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/BEdmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="4620" Origin="SLC" Destination="BUR"
+			DepartureTime="2018-09-29T15:00:00.000-06:00" ArrivalTime="2018-09-29T16:01:00.000-07:00"
+			FlightTime="121" Distance="575" ETicketability="Yes" Equipment="E7W"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:CodeshareInfo>SKYWEST DBA DELTA CONNECTION</air:CodeshareInfo>
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/BFdmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/BGdmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="3654" Origin="SLC" Destination="BUR"
+			DepartureTime="2018-09-29T08:38:00.000-06:00" ArrivalTime="2018-09-29T09:40:00.000-07:00"
+			FlightTime="122" Distance="575" ETicketability="Yes" Equipment="CR9"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Cached status used. Polled avail exists"
+			OptionalServicesIndicator="false" AvailabilitySource="P"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:CodeshareInfo>SKYWEST DBA DELTA CONNECTION</air:CodeshareInfo>
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/BHdmAAAAAAA==" />
+		</air:AirSegment>
+		<air:AirSegment Key="65kPrWBAAA/BIdmAAAAAAA==" Group="0"
+			Carrier="DL" FlightNumber="4569" Origin="SLC" Destination="BUR"
+			DepartureTime="2018-09-29T11:15:00.000-06:00" ArrivalTime="2018-09-29T12:09:00.000-07:00"
+			FlightTime="114" Distance="575" ETicketability="Yes" Equipment="CR9"
+			ChangeOfPlane="false" ParticipantLevel="Secure Sell"
+			LinkAvailability="true" PolledAvailabilityOption="Polled avail used"
+			OptionalServicesIndicator="false" AvailabilitySource="S"
+			AvailabilityDisplayType="Fare Shop/Optimal Shop">
+			<air:CodeshareInfo>SKYWEST DBA DELTA CONNECTION</air:CodeshareInfo>
+			<air:AirAvailInfo ProviderCode="1G" />
+			<air:FlightDetailsRef Key="65kPrWBAAA/BJdmAAAAAAA==" />
+		</air:AirSegment>
+	</air:AirSegmentList>
+	<air:FareInfoList>
+		<air:FareInfo Key="65kPrWBAAA/BKdmAAAAAAA==" FareBasis="KAA4TCDN"
+			PassengerTypeCode="ADT" Origin="DEN" Destination="SNA"
+			EffectiveDate="2018-09-07T07:23:00.000+10:00" DepartureDate="2018-09-29"
+			Amount="AUD112.00" NegotiatedFare="false" NotValidBefore="2018-09-29"
+			NotValidAfter="2018-09-29">
+			<air:BaggageAllowance>
+				<air:NumberOfPieces>0</air:NumberOfPieces>
+				<air:MaxWeight />
+			</air:BaggageAllowance>
+			<air:FareRuleKey FareInfoRef="65kPrWBAAA/BKdmAAAAAAA=="
+				ProviderCode="1G">gws-eJxNjMEOhDAIRD+mmTuwjcqtpPW0SS/qwYv//xlLiRudFhqY6SulCPFCSlN5KeFKh+HYGtAhXls3LDIr2IcOcuFrlvfaPBAI0bCewzgj6NG43s5hDN29rcEKsr+MBJnmj43sQGTK8R0xWdtvEoNU//C1VoEriGMBx1w/kCkulw==</air:FareRuleKey>
+			<air:Brand Key="65kPrWBAAA/BFemAAAAAAA==" BrandID="146473"
+				BrandTier="0002" />
+		</air:FareInfo>
+		<air:FareInfo Key="65kPrWBAAA/BTdmAAAAAAA==" FareBasis="KAA2GWDN"
+			PassengerTypeCode="ADT" Origin="DEN" Destination="LAX"
+			EffectiveDate="2018-09-07T07:23:00.000+10:00" DepartureDate="2018-09-29"
+			Amount="AUD114.00" NegotiatedFare="false" NotValidBefore="2018-09-29"
+			NotValidAfter="2018-09-29">
+			<air:BaggageAllowance>
+				<air:NumberOfPieces>0</air:NumberOfPieces>
+				<air:MaxWeight />
+			</air:BaggageAllowance>
+			<air:FareRuleKey FareInfoRef="65kPrWBAAA/BTdmAAAAAAA=="
+				ProviderCode="1G">gws-eJxNjLEOwjAMRD8mut02ITRbLFIxtOoCVenS//8MbKsILrEj+y6vtSbEA1Uq7U8JR1oV67MDC8Rq1jeGXK5gGxaQCZOqPLZugUBIDet3GHsELRrX2u6G6+x9DFaQ7WUkSLld1LOOyJTjO2LS/jpJDKr1Cx/vm8AURF/AMMcHk6wurQ==</air:FareRuleKey>
+			<air:Brand Key="65kPrWBAAA/BHemAAAAAAA==" BrandID="146473"
+				BrandTier="0002" />
+		</air:FareInfo>
+		<air:FareInfo Key="65kPrWBAAA/BddmAAAAAAA==" FareBasis="TAUNA0BA"
+			PassengerTypeCode="ADT" Origin="DEN" Destination="LGB"
+			EffectiveDate="2018-09-07T07:23:00.000+10:00" DepartureDate="2018-09-29"
+			Amount="AUD118.00" NegotiatedFare="false" NotValidBefore="2018-09-29"
+			NotValidAfter="2018-09-29">
+			<air:BaggageAllowance>
+				<air:NumberOfPieces>0</air:NumberOfPieces>
+				<air:MaxWeight />
+			</air:BaggageAllowance>
+			<air:FareRuleKey FareInfoRef="65kPrWBAAA/BddmAAAAAAA=="
+				ProviderCode="1G">gws-eJxNjzEOwyAMRQ+D/m4jSvGGEWmXiCXJkCX3P0aN26r9BoPx95OotUbiQkK5/ingCn3FsXVgINpenw3lnhLYigEyYddjKDXFGxHFW79gnG40qy9Lp8WY+uS+OMvJdjIC6JFZp3ciEiUfh1fadydxLiCRL1zazQxw5Hyzq33gBYi1Loc=</air:FareRuleKey>
+			<air:Brand Key="65kPrWBAAA/BJemAAAAAAA==" BrandID="139631"
+				BrandTier="0001" />
+		</air:FareInfo>
+		<air:FareInfo Key="65kPrWBAAA/BpdmAAAAAAA==" FareBasis="TAVNA0BA"
+			PassengerTypeCode="ADT" Origin="DEN" Destination="LAX"
+			EffectiveDate="2018-09-07T07:23:00.000+10:00" DepartureDate="2018-09-29"
+			Amount="AUD119.00" NegotiatedFare="false" NotValidBefore="2018-09-29"
+			NotValidAfter="2018-09-29">
+			<air:BaggageAllowance>
+				<air:NumberOfPieces>0</air:NumberOfPieces>
+				<air:MaxWeight />
+			</air:BaggageAllowance>
+			<air:FareRuleKey FareInfoRef="65kPrWBAAA/BpdmAAAAAAA=="
+				ProviderCode="1G">gws-eJxNj8EOAiEMRD+GzL3FFeFGN7inDZddjXvx/z/DoWp0CoXS6UuotUbRLEVS/VPAM7QVt60BHZF7tQdyPl2gLDqEwm73bjIb3ohYvPULxeFGWn0xHYw+9Mnt6iwn81QEyJLUhncgJpl8HF5Z252kKUNK+cLLfKYBjhxvvPIDL5dBLp4=</air:FareRuleKey>
+			<air:Brand Key="65kPrWBAAA/BLemAAAAAAA==" BrandID="139631"
+				BrandTier="0001" />
+		</air:FareInfo>
+		<air:FareInfo Key="65kPrWBAAA/BydmAAAAAAA==" FareBasis="VAVNA0BA"
+			PassengerTypeCode="ADT" Origin="DEN" Destination="BUR"
+			EffectiveDate="2018-09-07T07:23:00.000+10:00" DepartureDate="2018-09-29"
+			Amount="AUD127.00" NegotiatedFare="false" NotValidBefore="2018-09-29"
+			NotValidAfter="2018-09-29">
+			<air:BaggageAllowance>
+				<air:NumberOfPieces>0</air:NumberOfPieces>
+				<air:MaxWeight />
+			</air:BaggageAllowance>
+			<air:FareRuleKey FareInfoRef="65kPrWBAAA/BydmAAAAAAA=="
+				ProviderCode="1G">gws-eJxNj7EOwyAMRD8G3W7TBMUbINqpYkiaSFn6/5/Rw23VnsFgfH4SOecouohJyn8KeIZ2x741oCNy132FXWyGsugQCkc5epFa8EZE89YvFKcbafXFdDL60Ce3q7OczFMRILekZXgHYpLJx+FVaQ8naVogZl+41ZkGOHK88coPvACbOy6k</air:FareRuleKey>
+			<air:Brand Key="65kPrWBAAA/BNemAAAAAAA==" BrandID="139631"
+				BrandTier="0001" />
+		</air:FareInfo>
+	</air:FareInfoList>
+	<air:RouteList>
+		<air:Route Key="65kPrWBAAA/BzdmAAAAAAA==">
+			<air:Leg Key="65kPrWBAAA/BSdmAAAAAAA==" Group="0" Origin="DEN"
+				Destination="LAX" />
+		</air:Route>
+	</air:RouteList>
+	<air:AirPricePointList>
+		<air:AirPricePoint Key="65kPrWBAAA/B0dmAAAAAAA=="
+			TotalPrice="AUD139.70" BasePrice="USD82.79" ApproximateTotalPrice="AUD139.70"
+			ApproximateBasePrice="AUD112.00" EquivalentBasePrice="AUD112.00"
+			Taxes="AUD27.70" ApproximateTaxes="AUD27.70" CompleteItinerary="true">
+			<air:AirPricingInfo Key="65kPrWBAAA/BLdmAAAAAAA=="
+				TotalPrice="AUD139.70" BasePrice="USD82.79" ApproximateTotalPrice="AUD139.70"
+				ApproximateBasePrice="AUD112.00" EquivalentBasePrice="AUD112.00"
+				Taxes="AUD27.70" LatestTicketingTime="2018-09-07" PricingMethod="Guaranteed"
+				ETicketability="Yes" PlatingCarrier="UA" ProviderCode="1G"
+				Cat35Indicator="false">
+				<air:FareInfoRef Key="65kPrWBAAA/BKdmAAAAAAA==" />
+				<air:TaxInfo Category="AY" Amount="AUD7.60"
+					Key="65kPrWBAAA/BMdmAAAAAAAAA" />
+				<air:TaxInfo Category="US" Amount="AUD8.40"
+					Key="65kPrWBAAA/BNdmAAAAAAAAA" />
+				<air:TaxInfo Category="XF" Amount="AUD6.10"
+					Key="65kPrWBAAA/BOdmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.50"
+						OriginAirport="DEN" />
+				</air:TaxInfo>
+				<air:TaxInfo Category="ZP" Amount="AUD5.60"
+					Key="65kPrWBAAA/BPdmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.10"
+						OriginAirport="DEN" />
+				</air:TaxInfo>
+				<air:FareCalc>DEN UA SNA 82.79KAA4TCDN USD82.79END</air:FareCalc>
+				<air:PassengerType Code="ADT" />
+				<air:ChangePenalty PenaltyApplies="Anytime">
+					<air:Amount>AUD269.00</air:Amount>
+				</air:ChangePenalty>
+				<air:CancelPenalty PenaltyApplies="Anytime">
+					<air:Percentage>100.00</air:Percentage>
+				</air:CancelPenalty>
+				<air:FlightOptionsList>
+					<air:FlightOption LegRef="65kPrWBAAA/BSdmAAAAAAA=="
+						Destination="LAX" Origin="DEN">
+						<air:Option Key="65kPrWBAAA/BQdmAAAAAAA==" TravelTime="P0DT2H22M0S">
+							<air:BookingInfo BookingCode="K" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BKdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/BucmAAAAAAA==" />
+						</air:Option>
+					</air:FlightOption>
+				</air:FlightOptionsList>
+			</air:AirPricingInfo>
+		</air:AirPricePoint>
+		<air:AirPricePoint Key="65kPrWBAAA/B1dmAAAAAAA=="
+			TotalPrice="AUD141.90" BasePrice="USD84.65" ApproximateTotalPrice="AUD141.90"
+			ApproximateBasePrice="AUD114.00" EquivalentBasePrice="AUD114.00"
+			Taxes="AUD27.90" ApproximateTaxes="AUD27.90" CompleteItinerary="true">
+			<air:AirPricingInfo Key="65kPrWBAAA/BUdmAAAAAAA=="
+				TotalPrice="AUD141.90" BasePrice="USD84.65" ApproximateTotalPrice="AUD141.90"
+				ApproximateBasePrice="AUD114.00" EquivalentBasePrice="AUD114.00"
+				Taxes="AUD27.90" LatestTicketingTime="2018-09-07" PricingMethod="Guaranteed"
+				ETicketability="Yes" PlatingCarrier="UA" ProviderCode="1G"
+				Cat35Indicator="false">
+				<air:FareInfoRef Key="65kPrWBAAA/BTdmAAAAAAA==" />
+				<air:TaxInfo Category="AY" Amount="AUD7.60"
+					Key="65kPrWBAAA/BVdmAAAAAAAAA" />
+				<air:TaxInfo Category="US" Amount="AUD8.60"
+					Key="65kPrWBAAA/BWdmAAAAAAAAA" />
+				<air:TaxInfo Category="XF" Amount="AUD6.10"
+					Key="65kPrWBAAA/BXdmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.50"
+						OriginAirport="DEN" />
+				</air:TaxInfo>
+				<air:TaxInfo Category="ZP" Amount="AUD5.60"
+					Key="65kPrWBAAA/BYdmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.10"
+						OriginAirport="DEN" />
+				</air:TaxInfo>
+				<air:FareCalc>DEN UA LAX 84.65KAA2GWDN USD84.65END</air:FareCalc>
+				<air:PassengerType Code="ADT" />
+				<air:ChangePenalty PenaltyApplies="Anytime">
+					<air:Amount>AUD269.00</air:Amount>
+				</air:ChangePenalty>
+				<air:CancelPenalty PenaltyApplies="Anytime">
+					<air:Percentage>100.00</air:Percentage>
+				</air:CancelPenalty>
+				<air:FlightOptionsList>
+					<air:FlightOption LegRef="65kPrWBAAA/BSdmAAAAAAA=="
+						Destination="LAX" Origin="DEN">
+						<air:Option Key="65kPrWBAAA/BZdmAAAAAAA==" TravelTime="P0DT2H24M0S">
+							<air:BookingInfo BookingCode="K" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BTdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/BwcmAAAAAAA==" />
+						</air:Option>
+						<air:Option Key="65kPrWBAAA/BbdmAAAAAAA==" TravelTime="P0DT2H37M0S">
+							<air:BookingInfo BookingCode="K" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BTdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/BycmAAAAAAA==" />
+						</air:Option>
+					</air:FlightOption>
+				</air:FlightOptionsList>
+			</air:AirPricingInfo>
+		</air:AirPricePoint>
+		<air:AirPricePoint Key="65kPrWBAAA/B2dmAAAAAAA=="
+			TotalPrice="AUD157.90" BasePrice="USD87.44" ApproximateTotalPrice="AUD157.90"
+			ApproximateBasePrice="AUD118.00" EquivalentBasePrice="AUD118.00"
+			Taxes="AUD39.90" ApproximateTaxes="AUD39.90" CompleteItinerary="true">
+			<air:AirPricingInfo Key="65kPrWBAAA/BedmAAAAAAA=="
+				TotalPrice="AUD157.90" BasePrice="USD87.44" ApproximateTotalPrice="AUD157.90"
+				ApproximateBasePrice="AUD118.00" EquivalentBasePrice="AUD118.00"
+				Taxes="AUD39.90" LatestTicketingTime="2018-09-07" PricingMethod="Guaranteed"
+				ETicketability="Yes" PlatingCarrier="DL" ProviderCode="1G"
+				Cat35Indicator="false">
+				<air:FareInfoRef Key="65kPrWBAAA/BddmAAAAAAA==" />
+				<air:TaxInfo Category="AY" Amount="AUD7.60"
+					Key="65kPrWBAAA/BfdmAAAAAAAAA" />
+				<air:TaxInfo Category="US" Amount="AUD8.90"
+					Key="65kPrWBAAA/BgdmAAAAAAAAA" />
+				<air:TaxInfo Category="XF" Amount="AUD12.20"
+					Key="65kPrWBAAA/BhdmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.50"
+						OriginAirport="DEN" />
+					<common_v45_0:TaxDetail Amount="USD4.50"
+						OriginAirport="SLC" />
+				</air:TaxInfo>
+				<air:TaxInfo Category="ZP" Amount="AUD11.20"
+					Key="65kPrWBAAA/BidmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.10"
+						OriginAirport="DEN" />
+					<common_v45_0:TaxDetail Amount="USD4.10"
+						OriginAirport="SLC" />
+				</air:TaxInfo>
+				<air:FareCalc>DEN DL X/SLC DL LGB 87.44TAUNA0BA USD87.44END</air:FareCalc>
+				<air:PassengerType Code="ADT" />
+				<air:ChangePenalty PenaltyApplies="Anytime">
+					<air:Percentage>100.00</air:Percentage>
+				</air:ChangePenalty>
+				<air:CancelPenalty NoShow="true" PenaltyApplies="Anytime">
+					<air:Percentage>100.00</air:Percentage>
+				</air:CancelPenalty>
+				<air:FlightOptionsList>
+					<air:FlightOption LegRef="65kPrWBAAA/BSdmAAAAAAA=="
+						Destination="LAX" Origin="DEN">
+						<air:Option Key="65kPrWBAAA/BjdmAAAAAAA==" TravelTime="P0DT4H31M0S">
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BddmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B0cmAAAAAAA==" />
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BddmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B2cmAAAAAAA==" />
+							<air:Connection SegmentIndex="0" />
+						</air:Option>
+						<air:Option Key="65kPrWBAAA/BmdmAAAAAAA==" TravelTime="P0DT7H8M0S">
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BddmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B0cmAAAAAAA==" />
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BddmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B4cmAAAAAAA==" />
+							<air:Connection SegmentIndex="0" />
+						</air:Option>
+					</air:FlightOption>
+				</air:FlightOptionsList>
+			</air:AirPricingInfo>
+		</air:AirPricePoint>
+		<air:AirPricePoint Key="65kPrWBAAA/B3dmAAAAAAA=="
+			TotalPrice="AUD159.00" BasePrice="USD88.37" ApproximateTotalPrice="AUD159.00"
+			ApproximateBasePrice="AUD119.00" EquivalentBasePrice="AUD119.00"
+			Taxes="AUD40.00" ApproximateTaxes="AUD40.00" CompleteItinerary="true">
+			<air:AirPricingInfo Key="65kPrWBAAA/B4dmAAAAAAA=="
+				TotalPrice="AUD159.00" BasePrice="USD88.37" ApproximateTotalPrice="AUD159.00"
+				ApproximateBasePrice="AUD119.00" EquivalentBasePrice="AUD119.00"
+				Taxes="AUD40.00" LatestTicketingTime="2018-09-07" PricingMethod="Guaranteed"
+				ETicketability="Yes" PlatingCarrier="DL" ProviderCode="1G"
+				Cat35Indicator="false">
+				<air:FareInfoRef Key="65kPrWBAAA/BpdmAAAAAAA==" />
+				<air:TaxInfo Category="AY" Amount="AUD7.60"
+					Key="65kPrWBAAA/B5dmAAAAAAAAA" />
+				<air:TaxInfo Category="US" Amount="AUD9.00"
+					Key="65kPrWBAAA/B6dmAAAAAAAAA" />
+				<air:TaxInfo Category="XF" Amount="AUD12.20"
+					Key="65kPrWBAAA/B7dmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.50"
+						OriginAirport="DEN" />
+					<common_v45_0:TaxDetail Amount="USD4.50"
+						OriginAirport="SLC" />
+				</air:TaxInfo>
+				<air:TaxInfo Category="ZP" Amount="AUD11.20"
+					Key="65kPrWBAAA/B8dmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.10"
+						OriginAirport="DEN" />
+					<common_v45_0:TaxDetail Amount="USD4.10"
+						OriginAirport="SLC" />
+				</air:TaxInfo>
+				<air:FareCalc>DEN DL X/SLC DL LAX 88.37TAVNA0BA USD88.37END</air:FareCalc>
+				<air:PassengerType Code="ADT" />
+				<air:ChangePenalty PenaltyApplies="Anytime">
+					<air:Percentage>100.00</air:Percentage>
+				</air:ChangePenalty>
+				<air:CancelPenalty NoShow="true" PenaltyApplies="Anytime">
+					<air:Percentage>100.00</air:Percentage>
+				</air:CancelPenalty>
+				<air:FlightOptionsList>
+					<air:FlightOption LegRef="65kPrWBAAA/BSdmAAAAAAA=="
+						Destination="LAX" Origin="DEN">
+						<air:Option Key="65kPrWBAAA/B9dmAAAAAAA==" TravelTime="P0DT5H44M0S">
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BpdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B0cmAAAAAAA==" />
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BpdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B6cmAAAAAAA==" />
+							<air:Connection SegmentIndex="0" />
+						</air:Option>
+						<air:Option Key="65kPrWBAAA/BAemAAAAAAA==" TravelTime="P0DT7H6M0S">
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BpdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B0cmAAAAAAA==" />
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BpdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B8cmAAAAAAA==" />
+							<air:Connection SegmentIndex="0" />
+						</air:Option>
+					</air:FlightOption>
+				</air:FlightOptionsList>
+			</air:AirPricingInfo>
+		</air:AirPricePoint>
+		<air:AirPricePoint Key="65kPrWBAAA/BDemAAAAAAA=="
+			TotalPrice="AUD159.00" BasePrice="USD88.37" ApproximateTotalPrice="AUD159.00"
+			ApproximateBasePrice="AUD119.00" EquivalentBasePrice="AUD119.00"
+			Taxes="AUD40.00" ApproximateTaxes="AUD40.00" CompleteItinerary="true">
+			<air:AirPricingInfo Key="65kPrWBAAA/BqdmAAAAAAA=="
+				TotalPrice="AUD159.00" BasePrice="USD88.37" ApproximateTotalPrice="AUD159.00"
+				ApproximateBasePrice="AUD119.00" EquivalentBasePrice="AUD119.00"
+				Taxes="AUD40.00" LatestTicketingTime="2018-09-07" PricingMethod="Guaranteed"
+				ETicketability="Yes" PlatingCarrier="DL" ProviderCode="1G"
+				Cat35Indicator="false">
+				<air:FareInfoRef Key="65kPrWBAAA/BpdmAAAAAAA==" />
+				<air:TaxInfo Category="AY" Amount="AUD7.60"
+					Key="65kPrWBAAA/BrdmAAAAAAAAA" />
+				<air:TaxInfo Category="US" Amount="AUD9.00"
+					Key="65kPrWBAAA/BsdmAAAAAAAAA" />
+				<air:TaxInfo Category="XF" Amount="AUD12.20"
+					Key="65kPrWBAAA/BtdmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.50"
+						OriginAirport="DEN" />
+					<common_v45_0:TaxDetail Amount="USD4.50"
+						OriginAirport="MSP" />
+				</air:TaxInfo>
+				<air:TaxInfo Category="ZP" Amount="AUD11.20"
+					Key="65kPrWBAAA/BudmAAAAAAAAA">
+					<common_v45_0:TaxDetail Amount="USD4.10"
+						OriginAirport="DEN" />
+					<common_v45_0:TaxDetail Amount="USD4.10"
+						OriginAirport="MSP" />
+				</air:TaxInfo>
+				<air:FareCalc>DEN DL X/MSP DL LAX 88.37TAVNA0BA USD88.37END</air:FareCalc>
+				<air:PassengerType Code="ADT" />
+				<air:ChangePenalty PenaltyApplies="Anytime">
+					<air:Percentage>100.00</air:Percentage>
+				</air:ChangePenalty>
+				<air:CancelPenalty NoShow="true" PenaltyApplies="Anytime">
+					<air:Percentage>100.00</air:Percentage>
+				</air:CancelPenalty>
+				<air:FlightOptionsList>
+					<air:FlightOption LegRef="65kPrWBAAA/BSdmAAAAAAA=="
+						Destination="LAX" Origin="DEN">
+						<air:Option Key="65kPrWBAAA/BvdmAAAAAAA==" TravelTime="P0DT6H28M0S">
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BpdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/B+cmAAAAAAA==" />
+							<air:BookingInfo BookingCode="E" BookingCount="9"
+								CabinClass="Economy" FareInfoRef="65kPrWBAAA/BpdmAAAAAAA=="
+								SegmentRef="65kPrWBAAA/BAdmAAAAAAA==" />
+							<air:Connection SegmentIndex="0" />
+						</air:Option>
+					</air:FlightOption>
+				</air:FlightOptionsList>
+			</air:AirPricingInfo>
+		</air:AirPricePoint>
+	</air:AirPricePointList>
+	<air:BrandList>
+		<air:Brand Key="65kPrWBAAA/BPemAAAAAAA==" BrandID="139631"
+			Name="Basic Economy" BrandedDetailsAvailable="true" Carrier="DL">
+			<air:Title Type="External" LanguageCode="EN">Basic Economy</air:Title>
+			<air:Title Type="Short" LanguageCode="EN">Basic Econ</air:Title>
+			<air:Text Type="MarketingAgent" LanguageCode="EN">Basic Economy
+				restrictions:• No seat assignment is available until after check-in•
+				Refunds and any ticket changes, including same-day changes, are not
+				permitted• No paid or complimentary access or upgrades to premium
+				seats or products, including Delta Comfort+™ or Preferred Seats, and
+				no paid access to Priority Boarding• Please note that if the flight
+				is operated by another airline then the onboard product or service
+				maybe different to that described above.</air:Text>
+			<air:Text Type="Strapline" LanguageCode="EN">Basic Economy</air:Text>
+			<air:ImageLocation Type="Upsell" ImageWidth="150"
+				ImageHeight="150">https://cdn.travelport.com/delta/DL_general_medium_44.jpg</air:ImageLocation>
+			<air:ImageLocation Type="Consumer" ImageWidth="1400"
+				ImageHeight="800">https://cdn.travelport.com/delta/DL_general_large_45991.jpg</air:ImageLocation>
+			<air:ImageLocation Type="Agent" ImageWidth="150"
+				ImageHeight="150">https://cdn.travelport.com/delta/DL_general_medium_45.jpg</air:ImageLocation>
+		</air:Brand>
+		<air:Brand Key="65kPrWBAAA/BRemAAAAAAA==" BrandID="146473"
+			Name="Economy" BrandedDetailsAvailable="true" Carrier="UA">
+			<air:Title Type="External" LanguageCode="EN">Economy</air:Title>
+			<air:Title Type="Short" LanguageCode="EN">ECONOMY</air:Title>
+			<air:Text Type="Upsell" LanguageCode="EN">Our standard Economy
+				fare; choose your seats and enjoy other options for customizing your
+				travel</air:Text>
+			<air:Text Type="MarketingAgent" LanguageCode="EN">Our standard
+				Economy fare; choose your seats and enjoy other options for
+				customizing your travel • Seat selection at booking, if seats are
+				available• Eligible to change ticket1• Eligible for Economy Plus®1,
+				paid upgrades and complimentary upgrades• One personal item and one
+				full-size carry-on bag• Earn award miles and lifetime miles, and
+				toward Premier® qualification• 1Fees may apply.---• Please note that
+				if the flight is operated by another airline then the onboard
+				product or service maybe different to that described above.</air:Text>
+			<air:Text Type="Strapline" LanguageCode="EN">Our lowest available
+				fare with options to customize travel and without the restrictions
+				of Budget E</air:Text>
+			<air:ImageLocation Type="Consumer" ImageWidth="2000"
+				ImageHeight="1529">https://cdn.travelport.com/united/UA_general_large_42309.jpg</air:ImageLocation>
+			<air:ImageLocation Type="Agent" ImageWidth="150"
+				ImageHeight="150">https://cdn.travelport.com/united/UA_general_medium_1662.jpg</air:ImageLocation>
+		</air:Brand>
+	</air:BrandList>
+</air:LowFareSearchRsp>

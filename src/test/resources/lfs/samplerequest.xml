@@ -1,0 +1,26 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:LowFareSearchReq xmlns="http://www.travelport.com/schema/common_v45_0"
+			xmlns:ns2="http://www.travelport.com/schema/air_v45_0" xmlns:ns3="http://www.travelport.com/schema/rail_v45_0"
+			xmlns:ns4="http://www.travelport.com/soa/common/security/SessionContext_v1"
+			SolutionResult="false" TargetBranch="P7027242">
+			<BillingPointOfSaleInfo OriginApplication="UAPI" />
+			<ns2:SearchAirLeg>
+				<ns2:SearchOrigin>
+					<CityOrAirport Code="DEN" />
+				</ns2:SearchOrigin>
+				<ns2:SearchDestination>
+					<CityOrAirport Code="LAX" />
+				</ns2:SearchDestination>
+				<ns2:SearchDepTime PreferredTime="2018-09-29" />
+			</ns2:SearchAirLeg>
+			<ns2:AirSearchModifiers MaxSolutions="5">
+				<ns2:ProhibitedCarriers>
+					<Carrier Code="WN" />
+				</ns2:ProhibitedCarriers>
+			</ns2:AirSearchModifiers>
+			<SearchPassenger Code="ADT" />
+			<ns2:AirPricingModifiers />
+		</ns2:LowFareSearchReq>
+	</soap:Body>
+</soap:Envelope>
